@@ -8,7 +8,7 @@
 :root {
   --white: white;
   --black: hsla(0, 0%, 0%, 1);
-  --back-botton: hsla(0, 92%, 9%, 0.9);
+  --back-botton: hsla(226, 60%, 42%, 0.9);
   --text: rgb(70, 3, 3);
   --openSans: 'Open Sans', sans-serif;
   --italliano: 'Italianno', cursive;
@@ -56,13 +56,22 @@ header {
 
 .studio {
   align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-self: end;
   text-align: center;
   line-height: 1.2;
 }
 .studio .studioName {
+  display: flex;
+  align-items: center;
   font-family: var(--italliano);
   font-size: 3rem;
+}
+
+.studio .studioName img {
+  width: 1.8rem;
 }
 
 .studio .phoneNumber {
@@ -107,11 +116,17 @@ section {
   justify-content: center;
   border-radius: 0.8rem;
 }
+
+.button.whats {
+  background-color: #2db742;
+}
+
 .button img {
   padding: 0.5rem;
 }
 
 footer {
+  color: var(--black);
   height: 10vh;
   width: 90%;
   display: flex;
