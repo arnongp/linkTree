@@ -112,6 +112,8 @@ section {
   width: 25rem;
   height: 5rem;
   background-color: var(--back-botton);
+  box-shadow: 0 0 2px 2px #4565a5bc;
+
   color: var(--white);
   padding: 0.5rem;
   align-items: center;
@@ -120,7 +122,8 @@ section {
 }
 
 .button.whats {
-  background-color: #2db742;
+  background-color: #2db742; 
+  box-shadow: 0 0 2px 2px #6ed466bc;
 }
 
 .button img {
